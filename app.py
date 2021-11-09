@@ -88,6 +88,6 @@ def erro():
     return render_template('erro.html')
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000, use_reloader=True)
+    app.run(host='127.0.0.1', port=5000, use_reloader=True, Debug=True)
 
 #comando porta 80 'flask run --host=172.18.0.49 --port=80'
